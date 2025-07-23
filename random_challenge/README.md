@@ -1,0 +1,3 @@
+This project will serve to generate a new coding challenge for me each week. It is a simple random machine coded in python and will randomize a number between 1 and 20 ( or 15 for the beginner challenges)
+
+At first, it will ask to select between beginner, intermediary and advanced challenge. Then it will generate a random number between 1 and 20, concatenate the number with either the letter B, I or A (depending on the first choice) and search in a dictionnary for the matching key.
