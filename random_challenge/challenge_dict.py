@@ -1,4 +1,5 @@
-challenge_dict = "B01": "Even or Odd Checker - Ask the user for a number and print whether it's even or odd.",
+challenge_dict = { 
+    "B01": "Even or Odd Checker - Ask the user for a number and print whether it's even or odd.",
     "B02": "Number Guessing Game - Generate a random number between 1 and 10, and ask the user to guess it.",
     "B03": "Simple Calculator - Let the user input two numbers and an operator (+, -, *, /) and return the result.",
     "B04": "Palindrome Checker - Check if a given string (like 'radar') reads the same backward.",
@@ -12,7 +13,7 @@ challenge_dict = "B01": "Even or Odd Checker - Ask the user for a number and pri
     "B12": "Shopping List App - Let the user add, view, and remove items from a shopping list stored in a list.",
     "B13": "Simple Login System - Hardcode a username and password, and ask the user to log in.",
     "B14": "Grade Calculator - Let the user input marks for 5 subjects and calculate the average and letter grade.",
-    "B15": "Tip Calculator - Ask the user for the bill amount and tip percentage, then calculate the total."
+    "B15": "Tip Calculator - Ask the user for the bill amount and tip percentage, then calculate the total.",
     "I01": "To-Do List CLI App - Create a command-line to-do list app that saves tasks to a file.",
     "I02": "Contact Book with Search - Build a contact manager with add, view, search, and delete features using a dictionary or JSON file.",
     "I03": "Unit Converter - Convert units like temperature, length, and weight (e.g., Celsius to Fahrenheit, meters to feet).",
@@ -32,7 +33,7 @@ challenge_dict = "B01": "Even or Odd Checker - Ask the user for a number and pri
     "I17": "Typing Speed Test - Measure typing speed in words per minute based on a given sentence.",
     "I18": "Basic Encryption/Decryption Tool - Implement a Caesar or substitution cipher to encode and decode messages.",
     "I19": "Calendar Event Organizer - Build a CLI calendar that allows adding, viewing, and deleting events.",
-    "I20": "Basic Chatbot - Create a rule-based chatbot that responds to certain keywords or questions."
+    "I20": "Basic Chatbot - Create a rule-based chatbot that responds to certain keywords or questions.",
     "A01": "Asynchronous Web Crawler - Use aiohttp and asyncio to crawl multiple web pages concurrently.",
     "A02": "RESTful API with Flask or FastAPI - Build a full REST API with CRUD operations and connect it to a database.",
     "A03": "Chat Application with Sockets - Create a real-time terminal-based chat app using Python sockets (TCP).",
@@ -53,3 +54,4 @@ challenge_dict = "B01": "Even or Odd Checker - Ask the user for a number and pri
     "A18": "Custom Encryption Algorithm - Create and test a custom encryption and decryption system (educational purpose only).",
     "A19": "Face Recognition System - Use OpenCV and face_recognition to detect and identify faces in real time.",
     "A20": "Virtual File System in Memory - Simulate a file system in memory with support for directories and basic commands."
+    }
